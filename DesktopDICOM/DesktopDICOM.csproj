@@ -49,6 +49,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agendar.Designer.cs">
+      <DependentUpon>Agendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Campo.cs" />
+    <Compile Include="CheckMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckMessage.Designer.cs">
+      <DependentUpon>CheckMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerAPP.cs" />
+    <Compile Include="ParserService.cs" />
+    <Compile Include="Segmento.cs" />
     <Compile Include="ServicioDICOM.cs" />
     <Compile Include="ServicioTexto.cs" />
     <Compile Include="SolictudModalidad.cs" />
@@ -62,6 +78,12 @@
     <Compile Include="Paciente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Agendar.resx">
+      <DependentUpon>Agendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckMessage.resx">
+      <DependentUpon>CheckMessage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

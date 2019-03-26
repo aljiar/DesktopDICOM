@@ -24,7 +24,8 @@ namespace DesktopDICOM
 
         private void CargarMensaje_Click(object sender, EventArgs e)
         {
-
+            CheckMessage c = new CheckMessage();
+            c.Show();
         }
 
         private void AgendarSolictud_Click(object sender, EventArgs e)
