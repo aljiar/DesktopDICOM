@@ -55,6 +55,12 @@
     <Compile Include="Agendar.Designer.cs">
       <DependentUpon>Agendar.cs</DependentUpon>
     </Compile>
+    <Compile Include="BuscarPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarPaciente.Designer.cs">
+      <DependentUpon>BuscarPaciente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Campo.cs" />
     <Compile Include="CheckMessage.cs">
       <SubType>Form</SubType>
@@ -80,6 +86,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Agendar.resx">
       <DependentUpon>Agendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarPaciente.resx">
+      <DependentUpon>BuscarPaciente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CheckMessage.resx">
       <DependentUpon>CheckMessage.cs</DependentUpon>

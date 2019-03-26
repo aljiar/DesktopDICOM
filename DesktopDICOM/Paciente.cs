@@ -13,5 +13,6 @@ namespace DesktopDICOM
         public string FechaPaciente { get; set; }
         public string SexoPaciente { get; set; }
         public string AlergiasPaciente { get; set; }
+        public int Telefono { get; set; }
     }
 }
