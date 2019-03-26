@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ManagerAPP.cs" />
     <Compile Include="ServicioDICOM.cs" />
     <Compile Include="ServicioTexto.cs" />
     <Compile Include="SolictudModalidad.cs" />
