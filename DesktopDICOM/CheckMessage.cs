@@ -64,7 +64,11 @@ namespace DesktopDICOM
 
         private void button2_Click(object sender, EventArgs e)
         {
+            ParserService p = new ParserService();
+            var model = p.reader2();
 
+            Agendar a = new Agendar(model);
+            a.Show();
         }
     }
 }
