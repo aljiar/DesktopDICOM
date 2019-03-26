@@ -68,6 +68,7 @@
     <Compile Include="CheckMessage.Designer.cs">
       <DependentUpon>CheckMessage.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManagerAPP.cs" />
     <Compile Include="ParserService.cs" />
     <Compile Include="Segmento.cs" />
     <Compile Include="ServicioDICOM.cs" />
