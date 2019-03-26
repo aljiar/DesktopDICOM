@@ -8,9 +8,9 @@ namespace DesktopDICOM
 {
     class ManagerAPP
     {
-        List<Paciente> listaPacientes;
-        List<Modalidad> listaModalidades;
-        List<SolictudModalidad> listaSolicitudes;
+        List<Paciente> listaPacientes=new List<Paciente>();
+        List<Modalidad> listaModalidades=new List<Modalidad>();
+        List<SolictudModalidad> listaSolicitudes=new List<SolictudModalidad>();
         ServicioDICOM servicioDICOM = new ServicioDICOM();
         ServicioTexto servicioTexto = new ServicioTexto();
         public void AgregarPacientes(Paciente paciente)
