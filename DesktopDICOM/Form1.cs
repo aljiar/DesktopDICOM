@@ -30,12 +30,17 @@ namespace DesktopDICOM
 
         private void AgendarSolictud_Click(object sender, EventArgs e)
         {
-
+            //Agendar a = new Agendar(List < Segmento > model);
+            //a.Show();
         }
 
         private void BuscarPaciente_Click(object sender, EventArgs e)
         {
 
+            //ServicioDICOM p = new ServicioDICOM();
+            //string hola = p.RealizarConsultaDICOM();
+            BuscarPaciente bp = new BuscarPaciente();
+            bp.Show();
         }
     }
 }
