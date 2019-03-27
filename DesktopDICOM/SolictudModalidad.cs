@@ -17,5 +17,6 @@ namespace DesktopDICOM
         public string ScheduledProcedureStartDate { get; set; }
         public string ScheduledProcedureStartTime { get; set; }
         public string RequestProcedurePriority { get; set; }
+      
     }
 }

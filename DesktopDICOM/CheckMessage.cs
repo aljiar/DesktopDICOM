@@ -12,11 +12,11 @@ namespace DesktopDICOM
 {
     public partial class CheckMessage : Form
     {
+      
         public CheckMessage()
         {
             InitializeComponent();
-        }
-
+        }     
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -24,9 +24,10 @@ namespace DesktopDICOM
 
         private void button1_Click(object sender, EventArgs e)
         {
-            listView1.Items.Clear();
+            
             ParserService p = new ParserService();
             var model = p.reader2();
+          
 
             for (int i = 0; i < model.Count; i++)
             {
@@ -69,6 +70,16 @@ namespace DesktopDICOM
 
             Agendar a = new Agendar(model);
             a.Show();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void CheckMessage_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

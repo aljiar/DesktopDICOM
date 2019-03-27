@@ -23,6 +23,7 @@ namespace DesktopDICOM
         }
         public void AgregarSolicitud(SolictudModalidad solictud)
         {
+            AgregarPacientes(solictud.Paciente);
             listaSolicitudes.Add(solictud);
         }
         public void LevantarDICOM()

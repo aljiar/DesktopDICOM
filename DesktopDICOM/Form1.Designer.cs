@@ -35,9 +35,10 @@
             // 
             // CargarMensaje
             // 
-            this.CargarMensaje.Location = new System.Drawing.Point(254, 78);
+            this.CargarMensaje.Location = new System.Drawing.Point(139, 42);
+            this.CargarMensaje.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CargarMensaje.Name = "CargarMensaje";
-            this.CargarMensaje.Size = new System.Drawing.Size(264, 65);
+            this.CargarMensaje.Size = new System.Drawing.Size(144, 35);
             this.CargarMensaje.TabIndex = 0;
             this.CargarMensaje.Text = "Cargar Mensaje";
             this.CargarMensaje.UseVisualStyleBackColor = true;
@@ -45,19 +46,21 @@
             // 
             // AgendarSolictud
             // 
-            this.AgendarSolictud.Location = new System.Drawing.Point(253, 166);
+            this.AgendarSolictud.Location = new System.Drawing.Point(138, 90);
+            this.AgendarSolictud.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AgendarSolictud.Name = "AgendarSolictud";
-            this.AgendarSolictud.Size = new System.Drawing.Size(264, 64);
+            this.AgendarSolictud.Size = new System.Drawing.Size(144, 35);
             this.AgendarSolictud.TabIndex = 1;
-            this.AgendarSolictud.Text = "Agendar Solicitud";
+            this.AgendarSolictud.Text = "Lista Agendados";
             this.AgendarSolictud.UseVisualStyleBackColor = true;
             this.AgendarSolictud.Click += new System.EventHandler(this.AgendarSolictud_Click);
             // 
             // BuscarPaciente
             // 
-            this.BuscarPaciente.Location = new System.Drawing.Point(255, 252);
+            this.BuscarPaciente.Location = new System.Drawing.Point(139, 137);
+            this.BuscarPaciente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BuscarPaciente.Name = "BuscarPaciente";
-            this.BuscarPaciente.Size = new System.Drawing.Size(262, 69);
+            this.BuscarPaciente.Size = new System.Drawing.Size(143, 37);
             this.BuscarPaciente.TabIndex = 2;
             this.BuscarPaciente.Text = "Buscar Paciente";
             this.BuscarPaciente.UseVisualStyleBackColor = true;
@@ -65,12 +68,13 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(436, 244);
             this.Controls.Add(this.BuscarPaciente);
             this.Controls.Add(this.AgendarSolictud);
             this.Controls.Add(this.CargarMensaje);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "APP DICOM";
             this.Load += new System.EventHandler(this.Form1_Load);

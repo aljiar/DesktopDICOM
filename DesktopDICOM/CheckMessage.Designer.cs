@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
             this.listView2 = new System.Windows.Forms.ListView();
             this.button2 = new System.Windows.Forms.Button();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // button1
@@ -43,15 +43,6 @@
             this.button1.Text = "Verificar Mensasje";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // listView1
-            // 
-            this.listView1.Location = new System.Drawing.Point(32, 81);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(935, 245);
-            this.listView1.TabIndex = 1;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
             // listView2
             // 
@@ -72,17 +63,26 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // listView1
+            // 
+            this.listView1.Location = new System.Drawing.Point(32, 84);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(922, 258);
+            this.listView1.TabIndex = 4;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
             // CheckMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1018, 590);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.listView2);
-            this.Controls.Add(this.listView1);
             this.Controls.Add(this.button1);
             this.Name = "CheckMessage";
             this.Text = "CheckMessage";
+            this.Load += new System.EventHandler(this.CheckMessage_Load);
             this.ResumeLayout(false);
 
         }
@@ -90,8 +90,8 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.ListView listView2;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ListView listView1;
     }
 }
