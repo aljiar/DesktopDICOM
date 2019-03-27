@@ -36,7 +36,7 @@ namespace DesktopDICOM
         }
         public void ConsultaDICOM()
         {
-            servicioDICOM.RealizarConsultaDICOM();
+            servicioDICOM.RealizarConsultaDICOM("");
         }
         public void LeerArchivo(String ruta)
         {

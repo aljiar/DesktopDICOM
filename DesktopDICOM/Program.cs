@@ -17,11 +17,12 @@ namespace DesktopDICOM
             ManagerAPP managerAPP = new ManagerAPP();
             Console.WriteLine("\"Consola App\"");
             managerAPP.LevantarDICOM();
-            //managerAPP.AgregarADICOM();
-            managerAPP.ConsultaDICOM();
+            managerAPP.AgregarADICOM();
+            //managerAPP.ConsultaDICOM();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            
         }
     }
 }
