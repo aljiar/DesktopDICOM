@@ -64,16 +64,14 @@ namespace DesktopDICOM
             modalidad.IdModalidad = 1;
             modalidad.NombreModalidad = comboBoxEstudio.Text;
             modalidad.AbreviacionModalidad = "TM";
-
-
             SolictudModalidad solicitud = new SolictudModalidad();
             solicitud.IdSolicitudModalidad = 1;
             solicitud.Paciente = paciente;
             solicitud.Modalidad = modalidad;
             solicitud.RequestPhysician = txtMedico.Text;
             solicitud.RequestProcedureDescription = "";
-            solicitud.ScheduledProcedureStartDate = dateFechaEstudio.ToString() ;
-            solicitud.ScheduledProcedureStartTime =dateTimePicker1.ToString();
+            solicitud.ScheduledProcedureStartDate = dateFechaEstudio.Value.ToShortDateString().Replace("/","");
+            solicitud.ScheduledProcedureStartTime =dateTimePicker1.Value.ToShortTimeString().Replace(":","");
             solicitud.RequestProcedurePriority = "LOW";
 
             MessageBox.Show("Se agrego Exitosamente el agendamiento");

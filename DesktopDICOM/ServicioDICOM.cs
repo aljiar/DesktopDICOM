@@ -17,13 +17,13 @@ namespace DesktopDICOM
         public void AgregarArchivoDICOM()
         {
             string texto = "archivodicom.txt" + "\"";
-            Process.Start("CMD.exe", "/k " + "&" + @"cd ""C:\Users\usuario\Documents\Bioinfo\dcmtk-3.6.4-win64-dynamic\bin" +texto+ "&" + @" dump2dcm.exe ""C:\Users\usuario\Documents\Bioinfo\Orthanc-1.5.6\Orthanc-1.5.6\Plugins\Samples\ModalityWorklists\WorklistsDatabase\myworklist.wl""");
+            Process.Start("CMD.exe", "/k " + "&" + @"cd ""D:\\UPB\\Bioinformatica\\dcmtk-3.6.4-win64-dynamic\\bin" + "&" + @" dump2dcm.exe C:\\Users\\cae-1\\Desktop\\"+texto+ " > "+ @"""D:\\UPB\\Bioinformatica\\Orthanc-1.5.6\\Plugins\\Samples\\ModalityWorklists\\WorklistsDatabase""");
            
         }
         public string RealizarConsultaDICOM(String dato)
         {
             string nombre = dato;
-            Process.Start("CMD.exe", "/k " + @"cd C:\Users\usuario\Documents\Bioinfo\dcmtk-3.6.4-win64-dynamic\bin" + "&" + " findscu --call FINDSCU -W -k " + "\"PatientName=" + nombre + "*\"  localhost 4242");
+            Process.Start("CMD.exe", "/k " + @"cd D:\\UPB\\Bioinformatica\\dcmtk-3.6.4-win64-dynamic\\bin" + "&" + " findscu --call FINDSCU -W -k " + "\"PatientName=" + nombre + "*\"  localhost 4242");
             //ProcessStartInfo info = new ProcessStartInfo();
             //info.Arguments = @"cd C:\Users\usuario\Documents\Bioinfo\dcmtk-3.6.4-win64-dynamic\bin" + "&" + " findscu --call FINDSCU -W -k " + "\"PatientName=" + nombre + "*\"  localhost 4242";
             //info.WindowStyle = ProcessWindowStyle.Hidden;

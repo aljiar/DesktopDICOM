@@ -25,6 +25,7 @@ namespace DesktopDICOM
         {
             AgregarPacientes(solictud.Paciente);
             listaSolicitudes.Add(solictud);
+            servicioTexto.CrearTextoDICOM(solictud);
         }
         public void LevantarDICOM()
         {

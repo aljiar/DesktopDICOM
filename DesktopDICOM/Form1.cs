@@ -31,6 +31,8 @@ namespace DesktopDICOM
 
         private void AgendarSolictud_Click(object sender, EventArgs e)
         {
+            ServicioDICOM servicioDICOM = new ServicioDICOM();
+            servicioDICOM.AgregarArchivoDICOM();
             //Agendar a = new Agendar(List < Segmento > model);
             //a.Show();
         }
