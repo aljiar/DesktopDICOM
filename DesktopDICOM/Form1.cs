@@ -12,6 +12,7 @@ namespace DesktopDICOM
 {
     public partial class Form1 : Form
     {
+        List<SolictudModalidad> solictuds = new List<SolictudModalidad>();
         public Form1()
         {
             InitializeComponent();
@@ -24,7 +25,7 @@ namespace DesktopDICOM
 
         private void CargarMensaje_Click(object sender, EventArgs e)
         {
-            CheckMessage c = new CheckMessage();
+            CheckMessage c = new CheckMessage() ;
             c.Show();
         }
 

@@ -77,6 +77,9 @@ namespace DesktopDICOM
             solicitud.RequestProcedurePriority = "LOW";
 
             MessageBox.Show("Se agrego Exitosamente el agendamiento");
+            ManagerAPP m = new ManagerAPP();
+            m.AgregarSolicitud(solicitud);
+            
         }
 
         private void Agendar_Load(object sender, EventArgs e)
