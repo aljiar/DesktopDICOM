@@ -1,0 +1,14 @@
+MSH|^~\&|ORBIS-LSTM|LSTM|MEDNOVOL|Neurochirurgie|
+20150713130815||ORM^O01|MSGLSTM15014375|P|2.3
+PID|||1804260|7035875|Barez^HOLGER^^|""|19501105|M|||MariaGoeppert-Stra√Ye 7 71^^L√ºbeck^^23538^D ||||||||
+PV1||I|LZ390SC^^^LNEUR^^^^^26528001||||WILLA^Gutow^Michel^^Dr.|||N|||||||||7035875
+|||||||||||||||||||||||||20150216153700||||||LSTM-2015-036624
+ORC|NW|1529430062|LSTM-2015-036624^^
+1.2.40.0.13.0.11.9346.5.2015036624.181958.20150713130807||||||
+20150713130816|WILL-A^Gutow^Michel^^Dr.||WILLA^Gutow^Michel^^Dr.||||||^OT||
+OBR||1529430062|LSTM-2015-036624^^
+1.2.40.0.13.0.11.9346.5.2015036624.181958.20150713130807
+|LNCHIOP025^Exzision Hypophysentumor^Exzision
+Hypophysentumor^L OP^OT|||||||||Fragestellung: Entfernung des
+Tumors erbeten|||WILL-A^Gutow^Michel^^Dr.||||||20150713130816
+||OT|S|||||||||||20150713133000||||||||
